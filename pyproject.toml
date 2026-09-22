@@ -3,5 +3,11 @@ name = "simple-rnn"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.12,<3.13"
+dependencies = [
+	"numpy",
+	"pandas",
+	"streamlit",
+	"tensorflow",
+	"keras",
+]
